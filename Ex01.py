@@ -8,6 +8,13 @@ if (user== "Elias" and password == 1234) or (user == "Hello" and password == 567
     if adm == 'sim' or adm == "Sim" or adm== "SIM":
         print("Total access")
 
-        
+    else: 
+        print("Restrict access")
+
+        if user == "Hello" and password == 5678:
+            print("External acess")
+
+else : 
+    print("Invalid username or password")
 
   
