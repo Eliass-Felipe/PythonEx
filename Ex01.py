@@ -3,9 +3,9 @@ password = int(input("Enter a password:\t"))
 
 if (user== "Elias" and password == 1234) or (user == "Hello" and password == 5678):
 
-    adm = str(input("Want to access as administrator?\t(sim/nao)"))
+    adm = str(input("Want to access as administrator?\t(yes/no)"))
 
-    if adm == 'sim' or adm == "Sim" or adm== "SIM":
+    if adm == 'yes' or adm == "Yes" or adm== "YES":
         print("Total access")
 
     else: 
