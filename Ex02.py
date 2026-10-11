@@ -1,7 +1,7 @@
 average = float(input("Enter your final average grade:\t"))
 frequency = int(input("Enter you frenquency: %\t"))
 
-
+frequency = 
 
 if frequency >= 75:
     if average >= 7:
